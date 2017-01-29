@@ -350,7 +350,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/bg-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/chalkboard.jpg": {
 		"fileType": 16384,
@@ -449,7 +449,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/logo-mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/logo.png": {
 		"fileType": 32768,
