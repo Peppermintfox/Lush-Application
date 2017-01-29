@@ -284,7 +284,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/bg-auz.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/bg-cornwall.jpg": {
 		"fileType": 16384,
@@ -295,7 +295,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/bg-cornwall.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/bg-dubai.jpg": {
 		"fileType": 16384,
@@ -306,7 +306,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/bg-dubai.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/bg-jagged-edge-top.jpg": {
 		"fileType": 16384,
@@ -317,7 +317,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/bg-jagged-edge-top.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/bg-jagged-edge.jpg": {
 		"fileType": 16384,
@@ -328,7 +328,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/bg-jagged-edge.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/bg-lush.jpg": {
 		"fileType": 16384,
@@ -339,7 +339,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/bg-lush.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/bg-mobile.jpg": {
 		"fileType": 16384,
@@ -350,7 +350,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/bg-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/chalkboard.jpg": {
 		"fileType": 16384,
@@ -361,7 +361,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/chalkboard.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/chapter-four.png": {
 		"fileType": 32768,
@@ -372,7 +372,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/chapter-four.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/chapter-one.png": {
 		"fileType": 32768,
@@ -383,7 +383,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/chapter-one.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/chapter-three.png": {
 		"fileType": 32768,
@@ -394,7 +394,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/chapter-three.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/chapter-two.png": {
 		"fileType": 32768,
@@ -405,7 +405,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/chapter-two.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/cover.jpg": {
 		"fileType": 16384,
@@ -416,7 +416,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/cover.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/dear-lush.png": {
 		"fileType": 32768,
@@ -427,7 +427,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/dear-lush.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/key-event.png": {
 		"fileType": 32768,
@@ -438,7 +438,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/key-event.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/logo.png": {
 		"fileType": 32768,
@@ -449,7 +449,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/logo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/scroll-indicator.png": {
 		"fileType": 32768,
@@ -460,7 +460,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/scroll-indicator.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/img\/thanks.png": {
 		"fileType": 32768,
@@ -471,7 +471,7 @@
 		"outputAbbreviatedPath": "\/docs\/img\/thanks.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/docs\/index.html": {
 		"fileType": 8192,
