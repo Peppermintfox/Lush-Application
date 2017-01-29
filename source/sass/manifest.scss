@@ -1,3 +1,4 @@
+
 @import 'partials/reset';
 @import 'partials/variables';
 @import 'partials/layout';
@@ -45,19 +46,30 @@ section {
   background-size: cover;
   background-color: black;
   width: 100%;
+  height: 100vh;
   padding: 4em 0 5em;
-  background-position: bottom left;
+  background-position: center left;
   display: table;
   background-image: url(../img/chalkboard.jpg);
+
+
+
+  @include MQ(MobilePortrait) {
+    background-image: url(../img/bg-mobile.jpg);
+  }
+
   @include MQ(M) {
     padding: 8em 0;
     background-position: center center;
   }
   @include MQ(L) {
-    padding: 5em 0 8em;
+
     min-height: 720px;
     height: 100vh;
     padding: 0;
+  }
+  @media screen and (min-width: 1024px) and (orientation: portrait) {
+    background-position: bottom left 27%;
   }
   &__content {
     @extend %clearfix;
@@ -65,17 +77,30 @@ section {
     text-align:center;
     position: relative;
     z-index:1;
-    display: table-cell;
-    vertical-align: middle;
-    h1 { text-indent: -9999px;}
+
+
+
+    @include MQ(M) {display: table-cell;vertical-align: middle;}
+    h1 { text-indent: -9999px;@extend %clearfix;}
     img {
       display: block;
-      float: left;
       position:relative;
-      max-width: 65%;
-      left: 35%;
-      width: 100%;
-      padding: 0 8% 0 0;
+      margin:0 auto;
+      width: 80%;
+      @include MQ(MobileLandscape) {
+
+        width: 60%;
+margin-right: 2em;
+      }
+      @include MQ(MobilePortrait) {
+
+      }
+      @include MQ(M) {  float: left;
+        max-width: 65%;
+        padding: 0 8% 0 0;
+        left: 35%;
+        width:100%;
+       }
       @include MQ(L) {
         margin-top: -3em;
       }
@@ -235,7 +260,7 @@ section {
 }
 
 .scroll-indicator {
-  display: none;
+
   width: 70px;
   height: 40px;
   background-size: 70px 40px;
@@ -247,7 +272,7 @@ section {
   opacity: .2;
   animation: bounce 2s infinite;
   z-index: 1;
-  @include MQ(L) { display: block; }
+
 }
 
 @keyframes bounce {

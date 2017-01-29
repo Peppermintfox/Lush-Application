@@ -95,7 +95,7 @@ h2 {
   line-height: 1.5;
   margin-left: auto;
   margin-right: auto; }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 780px) {
     .lead {
       max-width: 640px;
       font-size: 1.3em; } }
@@ -129,7 +129,7 @@ h2 {
 .color--primary {
   color: #32cdc0; }
 
-.hero__content:after, .buttons:after {
+.hero__content:after, .hero__content h1:after, .buttons:after {
   content: "";
   display: table;
   clear: both; }
@@ -151,7 +151,7 @@ section {
   padding: 0 2em;
   margin: 0 auto;
   position: relative; }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 780px) {
     .container {
       padding: 0 4em; } }
 
@@ -160,37 +160,53 @@ section {
   background-size: cover;
   background-color: black;
   width: 100%;
+  height: 100vh;
   padding: 4em 0 5em;
-  background-position: bottom left;
+  background-position: center left;
   display: table;
   background-image: url(../img/chalkboard.jpg); }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (max-width: 1000px) and (orientation: portrait) {
+    .hero {
+      background-image: url(../img/bg-mobile.jpg); } }
+  @media only screen and (min-width: 780px) {
     .hero {
       padding: 8em 0;
       background-position: center center; } }
   @media only screen and (min-width: 1000px) {
     .hero {
-      padding: 5em 0 8em;
       min-height: 720px;
       height: 100vh;
       padding: 0; } }
+  @media screen and (min-width: 1024px) and (orientation: portrait) {
+    .hero {
+      background-position: bottom left 27%; } }
   .hero__content {
     width: 100%;
     text-align: center;
     position: relative;
-    z-index: 1;
-    display: table-cell;
-    vertical-align: middle; }
+    z-index: 1; }
+    @media only screen and (min-width: 780px) {
+      .hero__content {
+        display: table-cell;
+        vertical-align: middle; } }
     .hero__content h1 {
       text-indent: -9999px; }
     .hero__content img {
       display: block;
-      float: left;
       position: relative;
-      max-width: 65%;
-      left: 35%;
-      width: 100%;
-      padding: 0 8% 0 0; }
+      margin: 0 auto;
+      width: 80%; }
+      @media only screen and (max-width: 1000px) and (orientation: landscape) {
+        .hero__content img {
+          width: 60%;
+          margin-right: 2em; } }
+      @media only screen and (min-width: 780px) {
+        .hero__content img {
+          float: left;
+          max-width: 65%;
+          padding: 0 8% 0 0;
+          left: 35%;
+          width: 100%; } }
       @media only screen and (min-width: 1000px) {
         .hero__content img {
           margin-top: -3em; } }
@@ -200,7 +216,7 @@ section {
   background-color: #32cdc0;
   background: url(../img/bg-jagged-edge.jpg) repeat-x bottom, linear-gradient(to bottom, #42ffc2, #32cdc0);
   padding: 3em 0 4em; }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 780px) {
     .intro {
       padding: 6em 0 7em; } }
   @media only screen and (min-width: 1000px) {
@@ -210,7 +226,7 @@ section {
     color: #146d6b; }
   .intro img {
     max-height: 26px; }
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 780px) {
       .intro img {
         max-height: 40px; } }
     @media only screen and (min-width: 1000px) {
@@ -223,7 +239,7 @@ section {
   text-align: center;
   background-size: cover;
   background-position: 50% 50%; }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 780px) {
     .chapter-header {
       margin: 5.5em 0; } }
   @media only screen and (min-width: 1000px) {
@@ -259,7 +275,7 @@ section {
 
 .chapter-four {
   padding-bottom: 4em; }
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 780px) {
     .chapter-four {
       padding-bottom: 6em; } }
   @media only screen and (min-width: 1000px) {
@@ -350,7 +366,6 @@ section {
       z-index: 2; }
 
 .scroll-indicator {
-  display: none;
   width: 70px;
   height: 40px;
   background-size: 70px 40px;
@@ -362,9 +377,6 @@ section {
   opacity: .2;
   animation: bounce 2s infinite;
   z-index: 1; }
-  @media only screen and (min-width: 1000px) {
-    .scroll-indicator {
-      display: block; } }
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {

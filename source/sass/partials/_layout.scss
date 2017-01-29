@@ -1,7 +1,7 @@
 // breakpoints
 
 $S:     480px;
-$M:     600px;
+$M:     780px;
 $L:     1000px;
 
 // media queries
@@ -15,6 +15,12 @@ $L:     1000px;
   }
   @else if $canvas == L {
    @media only screen and (min-width: $L) { @content; }
+  }
+  @else if $canvas == MobilePortrait {
+   @media only screen and (max-width: $L) and (orientation: portrait){ @content; }
+  }
+  @else if $canvas == MobileLandscape {
+   @media only screen and (max-width: $L) and (orientation: landscape){ @content; }
   }
 }
 

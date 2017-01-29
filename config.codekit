@@ -341,6 +341,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/docs\/img\/bg-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55570,
+		"inputAbbreviatedPath": "\/docs\/img\/bg-mobile.jpg",
+		"outputAbbreviatedPath": "\/docs\/img\/bg-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/docs\/img\/chalkboard.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -591,8 +602,8 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "Lush-Job-Application",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "Lush-Application",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "globe_darkGray"
 	},
 "projectSettings": {
