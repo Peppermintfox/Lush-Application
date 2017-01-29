@@ -440,6 +440,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/docs\/img\/logo-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 130234,
+		"inputAbbreviatedPath": "\/docs\/img\/logo-mobile.png",
+		"outputAbbreviatedPath": "\/docs\/img\/logo-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/docs\/img\/logo.png": {
 		"fileType": 32768,
 		"ignore": 0,

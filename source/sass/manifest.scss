@@ -73,7 +73,7 @@ section {
     text-align:center;
     position: relative;
     z-index:1;
-    
+
     @include MQ(M) {
       display: table-cell;
       vertical-align: middle;
@@ -85,14 +85,13 @@ section {
     }
 
     img {
-      display: block;
-      position:relative;
-      margin:0 auto;
-      width: 80%;
+      position: relative;
+      margin: 0 3em 0 auto;
+      width: 61%;
 
       @include MQ(MobileLandscape) {
-        width: 60%;
-        margin-right: 2em;
+        
+
       }
 
       @include MQ(M) {  float: left;
@@ -286,4 +285,16 @@ section {
 	60% {
     transform:translateY(-8px);
   }
+}
+
+
+
+.desktop-only {
+  display:none;
+  @include MQ(M) {display:inherit}
+}
+
+.mobile-only {
+display:inherit;
+  @include MQ(M) {display:none;}
 }

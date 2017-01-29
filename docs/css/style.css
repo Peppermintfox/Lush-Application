@@ -190,14 +190,9 @@ section {
     .hero__content h1 {
       text-indent: -9999px; }
     .hero__content img {
-      display: block;
       position: relative;
-      margin: 0 auto;
-      width: 80%; }
-      @media only screen and (max-width: 1024px) and (orientation: landscape) {
-        .hero__content img {
-          width: 60%;
-          margin-right: 2em; } }
+      margin: 0 3em 0 auto;
+      width: 61%; }
       @media only screen and (min-width: 780px) {
         .hero__content img {
           float: left;
@@ -383,3 +378,14 @@ section {
     transform: translateY(-15px); }
   60% {
     transform: translateY(-8px); } }
+.desktop-only {
+  display: none; }
+  @media only screen and (min-width: 780px) {
+    .desktop-only {
+      display: inherit; } }
+
+.mobile-only {
+  display: inherit; }
+  @media only screen and (min-width: 780px) {
+    .mobile-only {
+      display: none; } }
