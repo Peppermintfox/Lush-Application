@@ -182,17 +182,15 @@ section {
     width: 100%;
     text-align: center;
     position: relative;
-    z-index: 1; }
-    @media only screen and (min-width: 780px) {
-      .hero__content {
-        display: table-cell;
-        vertical-align: middle; } }
+    z-index: 1;
+    display: table-cell;
+    vertical-align: middle; }
     .hero__content h1 {
       text-indent: -9999px; }
     .hero__content img {
       position: relative;
       margin: 0 2.5em 0 auto;
-      width: 61%; }
+      width: 55%; }
       @media only screen and (min-width: 780px) {
         .hero__content img {
           float: left;

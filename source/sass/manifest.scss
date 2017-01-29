@@ -53,7 +53,7 @@ section {
   background-image: url(../img/chalkboard.jpg);
 
   @include MQ(MobilePortrait) {
-    background-image: url(../img/bg-mobile.jpg);  background-position: bottom left 27%;
+    background-image: url(../img/bg-mobile.jpg);  background-position: bottom left 29%;
   }
 
   @include MQ(M) {
@@ -74,10 +74,10 @@ section {
     position: relative;
     z-index:1;
 
-    @include MQ(M) {
+
       display: table-cell;
       vertical-align: middle;
-    }
+
 
     h1 {
       text-indent: -9999px;
@@ -87,7 +87,7 @@ section {
     img {
       position: relative;
       margin: 0 2.5em 0 auto;
-      width: 61%;
+      width: 55%;
 
       @include MQ(MobileLandscape) {
 
