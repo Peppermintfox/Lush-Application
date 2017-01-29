@@ -60,7 +60,7 @@ p {
   margin-top: 1em; }
   p:first-child {
     padding-top: 0; }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1024px) {
     p {
       font-size: 1.15em;
       max-width: 600px;
@@ -69,7 +69,7 @@ p {
 p + h2,
 aside + h2 {
   margin-top: 1.3em; }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1024px) {
     p + h2,
     aside + h2 {
       margin-top: 2.5em; } }
@@ -79,7 +79,7 @@ h2 {
   font-weight: bold;
   line-height: 1.4;
   text-transform: uppercase; }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1024px) {
     h2 {
       font-size: 1.8em;
       width: 600px;
@@ -99,7 +99,7 @@ h2 {
     .lead {
       max-width: 640px;
       font-size: 1.3em; } }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1024px) {
     .lead {
       font-size: 1.6em;
       max-width: 750px; } }
@@ -107,7 +107,7 @@ h2 {
 .ordered-list {
   margin-top: 2em;
   list-style: decimal; }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1024px) {
     .ordered-list {
       max-width: 600px;
       margin: 2em auto 0 80px; } }
@@ -165,21 +165,19 @@ section {
   background-position: center left;
   display: table;
   background-image: url(../img/chalkboard.jpg); }
-  @media only screen and (max-width: 1000px) and (orientation: portrait) {
+  @media only screen and (max-width: 1024px) and (orientation: portrait) {
     .hero {
-      background-image: url(../img/bg-mobile.jpg); } }
+      background-image: url(../img/bg-mobile.jpg);
+      background-position: bottom left 27%; } }
   @media only screen and (min-width: 780px) {
     .hero {
       padding: 8em 0;
       background-position: center center; } }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1024px) {
     .hero {
       min-height: 720px;
       height: 100vh;
       padding: 0; } }
-  @media screen and (min-width: 1024px) and (orientation: portrait) {
-    .hero {
-      background-position: bottom left 27%; } }
   .hero__content {
     width: 100%;
     text-align: center;
@@ -196,7 +194,7 @@ section {
       position: relative;
       margin: 0 auto;
       width: 80%; }
-      @media only screen and (max-width: 1000px) and (orientation: landscape) {
+      @media only screen and (max-width: 1024px) and (orientation: landscape) {
         .hero__content img {
           width: 60%;
           margin-right: 2em; } }
@@ -207,7 +205,7 @@ section {
           padding: 0 8% 0 0;
           left: 35%;
           width: 100%; } }
-      @media only screen and (min-width: 1000px) {
+      @media only screen and (min-width: 1024px) {
         .hero__content img {
           margin-top: -3em; } }
 
@@ -219,7 +217,7 @@ section {
   @media only screen and (min-width: 780px) {
     .intro {
       padding: 6em 0 7em; } }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1024px) {
     .intro {
       padding: 8em 0 9em; } }
   .intro .lead {
@@ -229,7 +227,7 @@ section {
     @media only screen and (min-width: 780px) {
       .intro img {
         max-height: 40px; } }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1024px) {
       .intro img {
         max-height: initial; } }
 
@@ -242,7 +240,7 @@ section {
   @media only screen and (min-width: 780px) {
     .chapter-header {
       margin: 5.5em 0; } }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1024px) {
     .chapter-header {
       margin: 9em 2em;
       background-attachment: fixed; } }
@@ -261,7 +259,7 @@ section {
     padding: 0 2em;
     display: block;
     margin: 0 auto; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1024px) {
       .chapter-header img {
         width: 800px; } }
   .chapter-four .chapter-header {
@@ -278,7 +276,7 @@ section {
   @media only screen and (min-width: 780px) {
     .chapter-four {
       padding-bottom: 6em; } }
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 1024px) {
     .chapter-four {
       padding-bottom: 9em; } }
 
@@ -290,7 +288,7 @@ section {
     top: -18px;
     right: -220px;
     display: none; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1024px) {
       .key-event::after {
         display: block; } }
 
@@ -312,7 +310,7 @@ section {
     z-index: 1;
     transform-origin: center;
     font-size: .8em; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1024px) {
       .buttons a {
         padding: 17px 50px;
         width: 50%;
@@ -326,7 +324,7 @@ section {
     background: #0eb3af;
     border-radius: 10px;
     margin-bottom: 1.5em; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1024px) {
       .buttons a:first-child {
         transform-origin: center right;
         margin-bottom: none;
@@ -336,7 +334,7 @@ section {
     float: right;
     background: #fff100;
     border-radius: 10px; }
-    @media only screen and (min-width: 1000px) {
+    @media only screen and (min-width: 1024px) {
       .buttons a:last-child {
         transform-origin: center left;
         border-radius: 0 50px 50px 0; } }

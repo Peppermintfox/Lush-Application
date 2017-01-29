@@ -52,55 +52,56 @@ section {
   display: table;
   background-image: url(../img/chalkboard.jpg);
 
-
-
   @include MQ(MobilePortrait) {
-    background-image: url(../img/bg-mobile.jpg);
+    background-image: url(../img/bg-mobile.jpg);  background-position: bottom left 27%;
   }
 
   @include MQ(M) {
     padding: 8em 0;
     background-position: center center;
   }
-  @include MQ(L) {
 
+  @include MQ(L) {
     min-height: 720px;
     height: 100vh;
     padding: 0;
   }
-  @media screen and (min-width: 1024px) and (orientation: portrait) {
-    background-position: bottom left 27%;
-  }
+
   &__content {
     @extend %clearfix;
     width: 100%;
     text-align:center;
     position: relative;
     z-index:1;
+    
+    @include MQ(M) {
+      display: table-cell;
+      vertical-align: middle;
+    }
 
+    h1 {
+      text-indent: -9999px;
+      @extend %clearfix;
+    }
 
-
-    @include MQ(M) {display: table-cell;vertical-align: middle;}
-    h1 { text-indent: -9999px;@extend %clearfix;}
     img {
       display: block;
       position:relative;
       margin:0 auto;
       width: 80%;
+
       @include MQ(MobileLandscape) {
-
         width: 60%;
-margin-right: 2em;
+        margin-right: 2em;
       }
-      @include MQ(MobilePortrait) {
 
-      }
       @include MQ(M) {  float: left;
         max-width: 65%;
         padding: 0 8% 0 0;
         left: 35%;
         width:100%;
        }
+
       @include MQ(L) {
         margin-top: -3em;
       }
