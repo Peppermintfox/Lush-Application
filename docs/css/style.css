@@ -168,7 +168,7 @@ section {
   @media only screen and (max-width: 1024px) and (orientation: portrait) {
     .hero {
       background-image: url(../img/bg-mobile.jpg);
-      background-position: bottom left 27%; } }
+      background-position: bottom left 34%; } }
   @media only screen and (min-width: 780px) {
     .hero {
       padding: 8em 0;

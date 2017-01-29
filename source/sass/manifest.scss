@@ -53,7 +53,8 @@ section {
   background-image: url(../img/chalkboard.jpg);
 
   @include MQ(MobilePortrait) {
-    background-image: url(../img/bg-mobile.jpg);  background-position: bottom left 29%;
+    background-image: url(../img/bg-mobile.jpg);
+    background-position: bottom left 34%;
   }
 
   @include MQ(M) {
