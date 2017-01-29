@@ -1,0 +1,79 @@
+
+a { color: $color-1; }
+em { font-weight:700; }
+
+i { font-style: italic; }
+
+p {
+ font-size: 1em;
+ line-height: 1.6;
+ margin-top: 1em;
+ &:first-child { padding-top:0; }
+ @include MQ(L){
+   font-size: 1.15em;
+   max-width: $typography-width;
+   margin: $typography-margin;
+  }
+}
+
+p + h2,
+aside + h2 {
+  margin-top: 1.3em;
+  @include MQ(L){ margin-top:2.5em }
+}
+
+h2 {
+  font-size:1.5em;
+  font-weight:bold;
+  line-height: 1.4;
+  text-transform:uppercase;
+  @include MQ(L){
+   font-size:1.8em;
+   width: $typography-width;
+   margin: $typography-margin;
+  }
+  & + p {margin-top:.6em;}
+  & + h3 {margin-top:2px;}
+}
+
+.lead {
+  font-size: 1.1em;
+  margin-top: 1em;
+  line-height: 1.5;
+  margin-left: auto;
+  margin-right: auto;
+  @include MQ(M) {
+    max-width: 640px;
+    font-size: 1.3em;
+  }
+  @include MQ(L) {
+    font-size: 1.6em;
+    max-width: 750px;
+  }
+}
+
+.ordered-list {
+  margin-top:2em;
+  list-style: decimal;
+  @include MQ(L){
+   max-width: $typography-width;
+   margin: $typography-margin;
+  }
+  li {
+    color: $color-1;
+    margin-left: 1em;
+  }
+  p {
+    margin-left:1em;
+    color:#373b3e;
+    font-style: italic;
+  }
+}
+
+.headline {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 3.2em;
+  color: turquoise;
+}
